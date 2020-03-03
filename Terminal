@@ -1,0 +1,1819 @@
+ana@ana-ThinkPad-T440p:~$ ls
+Bureau     examples.desktop  Modèles  Public           Vidéos
+Documents  Images            Musique  Téléchargements
+ana@ana-ThinkPad-T440p:~$ ls .
+Bureau     examples.desktop  Modèles  Public           Vidéos
+Documents  Images            Musique  Téléchargements
+ana@ana-ThinkPad-T440p:~$ ls -a
+.              Documents         Musique
+..             examples.desktop  .pki
+.bash_history  .gnupg            .profile
+.bash_logout   .ICEauthority     Public
+.bashrc        Images            .ssh
+Bureau         .local            .sudo_as_admin_successful
+.cache         Modèles           Téléchargements
+.config        .mozilla          Vidéos
+ana@ana-ThinkPad-T440p:~$ ls Images
+ana@ana-ThinkPad-T440p:~$ ls /home/ana
+Bureau     examples.desktop  Modèles  Public           Vidéos
+Documents  Images            Musique  Téléchargements
+ana@ana-ThinkPad-T440p:~$ ls/home
+bash: ls/home: Aucun fichier ou dossier de ce type
+ana@ana-ThinkPad-T440p:~$ le /home
+
+La commande « le » n'a pas été trouvée, mais peut être installée avec :
+
+sudo apt install le
+
+ana@ana-ThinkPad-T440p:~$ ls /home
+ana
+ana@ana-ThinkPad-T440p:~$ ls ..
+ana
+ana@ana-ThinkPad-T440p:~$ ls /bin
+bash           kmod           readlink
+brltty         less           red
+bunzip2        lessecho       rm
+busybox        lessfile       rmdir
+bzcat          lesskey        rnano
+bzcmp          lesspipe       run-parts
+bzdiff         ln             sed
+bzegrep        loadkeys       setfacl
+bzexe          login          setfont
+bzfgrep        loginctl       setupcon
+bzgrep         lowntfs-3g     sh
+bzip2          ls             sh.distrib
+bzip2recover   lsblk          sleep
+bzless         lsmod          ss
+bzmore         mkdir          static-sh
+cat            mknod          stty
+chacl          mktemp         su
+chgrp          more           sync
+chmod          mount          systemctl
+chown          mountpoint     systemd
+chvt           mt             systemd-ask-password
+cp             mt-gnu         systemd-escape
+cpio           mv             systemd-hwdb
+dash           nano           systemd-inhibit
+date           nc             systemd-machine-id-setup
+dd             nc.openbsd     systemd-notify
+df             netcat         systemd-sysusers
+dir            networkctl     systemd-tmpfiles
+dmesg          nisdomainname  systemd-tty-ask-password-agent
+dnsdomainname  ntfs-3g        tar
+domainname     ntfs-3g.probe  tempfile
+dumpkeys       ntfscat        touch
+echo           ntfscluster    true
+ed             ntfscmp        udevadm
+efibootdump    ntfsfallocate  ulockmgr_server
+efibootmgr     ntfsfix        umount
+egrep          ntfsinfo       uname
+false          ntfsls         uncompress
+fgconsole      ntfsmove       unicode_start
+fgrep          ntfsrecover    vdir
+findmnt        ntfssecaudit   wdctl
+fuser          ntfstruncate   which
+fusermount     ntfsusermap    whiptail
+getfacl        ntfswipe       ypdomainname
+grep           open           zcat
+gunzip         openvt         zcmp
+gzexe          pidof          zdiff
+gzip           ping           zegrep
+hciconfig      ping4          zfgrep
+hostname       ping6          zforce
+ip             plymouth       zgrep
+journalctl     ps             zless
+kbd_mode       pwd            zmore
+kill           rbash          znew
+ana@ana-ThinkPad-T440p:~$ ls -l /bin
+total 12480
+-rwxr-xr-x 1 root root 1113504 juin   7  2019 bash
+-rwxr-xr-x 1 root root  748968 août  29  2018 brltty
+-rwxr-xr-x 1 root root   34888 juil.  4  2019 bunzip2
+-rwxr-xr-x 1 root root 2062296 mars   6  2019 busybox
+-rwxr-xr-x 1 root root   34888 juil.  4  2019 bzcat
+lrwxrwxrwx 1 root root       6 mars   2 16:12 bzcmp -> bzdiff
+-rwxr-xr-x 1 root root    2140 juil.  4  2019 bzdiff
+lrwxrwxrwx 1 root root       6 mars   2 16:12 bzegrep -> bzgrep
+-rwxr-xr-x 1 root root    4877 juil.  4  2019 bzexe
+lrwxrwxrwx 1 root root       6 mars   2 16:12 bzfgrep -> bzgrep
+-rwxr-xr-x 1 root root    3642 juil.  4  2019 bzgrep
+-rwxr-xr-x 1 root root   34888 juil.  4  2019 bzip2
+-rwxr-xr-x 1 root root   14328 juil.  4  2019 bzip2recover
+lrwxrwxrwx 1 root root       6 mars   2 16:12 bzless -> bzmore
+-rwxr-xr-x 1 root root    1297 juil.  4  2019 bzmore
+-rwxr-xr-x 1 root root   35064 janv. 18  2018 cat
+-rwxr-xr-x 1 root root   14328 avril 21  2017 chacl
+-rwxr-xr-x 1 root root   63672 janv. 18  2018 chgrp
+-rwxr-xr-x 1 root root   59608 janv. 18  2018 chmod
+-rwxr-xr-x 1 root root   67768 janv. 18  2018 chown
+-rwxr-xr-x 1 root root   10312 janv. 22  2018 chvt
+-rwxr-xr-x 1 root root  141528 janv. 18  2018 cp
+-rwxr-xr-x 1 root root  157224 nov.   5 19:09 cpio
+-rwxr-xr-x 1 root root  121432 janv. 25  2018 dash
+-rwxr-xr-x 1 root root  100568 janv. 18  2018 date
+-rwxr-xr-x 1 root root   76000 janv. 18  2018 dd
+-rwxr-xr-x 1 root root   84776 janv. 18  2018 df
+-rwxr-xr-x 1 root root  133792 janv. 18  2018 dir
+-rwxr-xr-x 1 root root   72000 janv.  8 19:31 dmesg
+lrwxrwxrwx 1 root root       8 mars   2 16:12 dnsdomainname -> hostname
+lrwxrwxrwx 1 root root       8 mars   2 16:12 domainname -> hostname
+-rwxr-xr-x 1 root root  170520 janv. 22  2018 dumpkeys
+-rwxr-xr-x 1 root root   35000 janv. 18  2018 echo
+-rwxr-xr-x 1 root root   51512 avril 26  2016 ed
+-rwxr-xr-x 1 root root   18424 avril 21  2017 efibootdump
+-rwxr-xr-x 1 root root   40056 avril 21  2017 efibootmgr
+-rwxr-xr-x 1 root root      28 sept. 18 17:00 egrep
+-rwxr-xr-x 1 root root   30904 janv. 18  2018 false
+-rwxr-xr-x 1 root root   10312 janv. 22  2018 fgconsole
+-rwxr-xr-x 1 root root      28 sept. 18 17:00 fgrep
+-rwxr-xr-x 1 root root   64784 janv.  8 19:31 findmnt
+-rwxr-xr-x 1 root root   35928 déc.  11  2018 fuser
+-rwsr-xr-x 1 root root   30800 août  11  2016 fusermount
+-rwxr-xr-x 1 root root   23160 avril 21  2017 getfacl
+-rwxr-xr-x 1 root root  219456 sept. 18 17:00 grep
+-rwxr-xr-x 1 root root    2301 avril 28  2017 gunzip
+-rwxr-xr-x 1 root root    5927 avril 28  2017 gzexe
+-rwxr-xr-x 1 root root  101560 avril 28  2017 gzip
+-rwxr-xr-x 1 root root  196632 janv.  6 09:30 hciconfig
+-rwxr-xr-x 1 root root   18504 janv. 31  2018 hostname
+-rwxr-xr-x 1 root root  554104 févr. 26  2018 ip
+-rwxr-xr-x 1 root root   63576 févr.  6 16:00 journalctl
+-rwxr-xr-x 1 root root   10312 janv. 22  2018 kbd_mode
+-rwxr-xr-x 1 root root   26704 août   9  2019 kill
+-rwxr-xr-x 1 root root  149688 nov.  12  2018 kmod
+-rwxr-xr-x 1 root root  170760 déc.   1  2017 less
+-rwxr-xr-x 1 root root   10256 déc.   1  2017 lessecho
+lrwxrwxrwx 1 root root       8 mars   2 16:12 lessfile -> lesspipe
+-rwxr-xr-x 1 root root   19856 déc.   1  2017 lesskey
+-rwxr-xr-x 1 root root    8564 déc.   1  2017 lesspipe
+-rwxr-xr-x 1 root root   67808 janv. 18  2018 ln
+-rwxr-xr-x 1 root root  211528 janv. 22  2018 loadkeys
+-rwxr-xr-x 1 root root   52664 mars  22  2019 login
+-rwxr-xr-x 1 root root   51280 févr.  6 16:00 loginctl
+-rwxr-xr-x 1 root root  109232 mars  21  2019 lowntfs-3g
+-rwxr-xr-x 1 root root  133792 janv. 18  2018 ls
+-rwxr-xr-x 1 root root   84048 janv.  8 19:31 lsblk
+lrwxrwxrwx 1 root root       4 mars   2 16:12 lsmod -> kmod
+-rwxr-xr-x 1 root root   80056 janv. 18  2018 mkdir
+-rwxr-xr-x 1 root root   67768 janv. 18  2018 mknod
+-rwxr-xr-x 1 root root   43192 janv. 18  2018 mktemp
+-rwxr-xr-x 1 root root   38952 janv.  8 19:31 more
+-rwsr-xr-x 1 root root   43088 janv.  8 19:31 mount
+-rwxr-xr-x 1 root root   14408 janv.  8 19:31 mountpoint
+lrwxrwxrwx 1 root root      20 mars   2 16:12 mt -> /etc/alternatives/mt
+-rwxr-xr-x 1 root root   80512 nov.   5 19:09 mt-gnu
+-rwxr-xr-x 1 root root  137440 janv. 18  2018 mv
+-rwxr-xr-x 1 root root  245872 mars   6  2018 nano
+lrwxrwxrwx 1 root root      20 mars   2 16:12 nc -> /etc/alternatives/nc
+-rwxr-xr-x 1 root root   35312 mai   14  2018 nc.openbsd
+lrwxrwxrwx 1 root root      24 mars   2 16:12 netcat -> /etc/alternatives/netcat
+-rwxr-xr-x 1 root root   43080 févr.  6 16:00 networkctl
+lrwxrwxrwx 1 root root       8 mars   2 16:12 nisdomainname -> hostname
+-rwxr-xr-x 1 root root  146128 mars  21  2019 ntfs-3g
+-rwxr-xr-x 1 root root   10312 mars  21  2019 ntfs-3g.probe
+-rwxr-xr-x 1 root root   26728 mars  21  2019 ntfscat
+-rwxr-xr-x 1 root root   34920 mars  21  2019 ntfscluster
+-rwxr-xr-x 1 root root   34920 mars  21  2019 ntfscmp
+-rwxr-xr-x 1 root root   34928 mars  21  2019 ntfsfallocate
+-rwxr-xr-x 1 root root   43120 mars  21  2019 ntfsfix
+-rwxr-xr-x 1 root root   55416 mars  21  2019 ntfsinfo
+-rwxr-xr-x 1 root root   31928 mars  21  2019 ntfsls
+-rwxr-xr-x 1 root root   30824 mars  21  2019 ntfsmove
+-rwxr-xr-x 1 root root  116840 mars  21  2019 ntfsrecover
+-rwxr-xr-x 1 root root   88672 mars  21  2019 ntfssecaudit
+-rwxr-xr-x 1 root root   38944 mars  21  2019 ntfstruncate
+-rwxr-xr-x 1 root root   30744 mars  21  2019 ntfsusermap
+-rwxr-xr-x 1 root root   47752 mars  21  2019 ntfswipe
+lrwxrwxrwx 1 root root       6 mars   2 16:12 open -> openvt
+-rwxr-xr-x 1 root root   18872 janv. 22  2018 openvt
+lrwxrwxrwx 1 root root      14 mars   2 16:12 pidof -> /sbin/killall5
+-rwsr-xr-x 1 root root   64424 juin  28  2019 ping
+lrwxrwxrwx 1 root root       4 mars   2 16:12 ping4 -> ping
+lrwxrwxrwx 1 root root       4 mars   2 16:12 ping6 -> ping
+-rwxr-xr-x 1 root root   38904 avril  4  2019 plymouth
+-rwxr-xr-x 1 root root  133432 août   9  2019 ps
+-rwxr-xr-x 1 root root   35000 janv. 18  2018 pwd
+lrwxrwxrwx 1 root root       4 mars   2 16:12 rbash -> bash
+-rwxr-xr-x 1 root root   43192 janv. 18  2018 readlink
+-rwxr-xr-x 1 root root      89 avril 26  2016 red
+-rwxr-xr-x 1 root root   63704 janv. 18  2018 rm
+-rwxr-xr-x 1 root root   43192 janv. 18  2018 rmdir
+lrwxrwxrwx 1 root root       4 mars   2 16:12 rnano -> nano
+-rwxr-xr-x 1 root root   18760 déc.  30  2017 run-parts
+-rwxr-xr-x 1 root root  109000 janv. 30  2018 sed
+-rwxr-xr-x 1 root root   35512 avril 21  2017 setfacl
+-rwxr-xr-x 1 root root   43144 janv. 22  2018 setfont
+-rwxr-xr-x 1 root root   39103 avril 23  2019 setupcon
+lrwxrwxrwx 1 root root       4 mars   2 16:12 sh -> dash
+lrwxrwxrwx 1 root root       4 mars   2 16:12 sh.distrib -> dash
+-rwxr-xr-x 1 root root   35000 janv. 18  2018 sleep
+-rwxr-xr-x 1 root root  139904 févr. 26  2018 ss
+lrwxrwxrwx 1 root root       7 mars   2 16:12 static-sh -> busybox
+-rwxr-xr-x 1 root root   75992 janv. 18  2018 stty
+-rwsr-xr-x 1 root root   44664 mars  22  2019 su
+-rwxr-xr-x 1 root root   35000 janv. 18  2018 sync
+-rwxr-xr-x 1 root root  182352 févr.  6 16:00 systemctl
+lrwxrwxrwx 1 root root      20 févr.  6 16:00 systemd -> /lib/systemd/systemd
+-rwxr-xr-x 1 root root   10320 févr.  6 16:00 systemd-ask-password
+-rwxr-xr-x 1 root root   14400 févr.  6 16:00 systemd-escape
+-rwxr-xr-x 1 root root   84328 févr.  6 16:00 systemd-hwdb
+-rwxr-xr-x 1 root root   14416 févr.  6 16:00 systemd-inhibit
+-rwxr-xr-x 1 root root   18496 févr.  6 16:00 systemd-machine-id-setup
+-rwxr-xr-x 1 root root   14408 févr.  6 16:00 systemd-notify
+-rwxr-xr-x 1 root root   43080 févr.  6 16:00 systemd-sysusers
+-rwxr-xr-x 1 root root   71752 févr.  6 16:00 systemd-tmpfiles
+-rwxr-xr-x 1 root root   26696 févr.  6 16:00 systemd-tty-ask-password-agent
+-rwxr-xr-x 1 root root  423312 janv. 21  2019 tar
+-rwxr-xr-x 1 root root   10104 déc.  30  2017 tempfile
+-rwxr-xr-x 1 root root   88280 janv. 18  2018 touch
+-rwxr-xr-x 1 root root   30904 janv. 18  2018 true
+-rwxr-xr-x 1 root root  584072 févr.  6 16:00 udevadm
+-rwxr-xr-x 1 root root   14328 août  11  2016 ulockmgr_server
+-rwsr-xr-x 1 root root   26696 janv.  8 19:31 umount
+-rwxr-xr-x 1 root root   35032 janv. 18  2018 uname
+-rwxr-xr-x 1 root root    2301 avril 28  2017 uncompress
+-rwxr-xr-x 1 root root    2762 janv. 22  2018 unicode_start
+-rwxr-xr-x 1 root root  133792 janv. 18  2018 vdir
+-rwxr-xr-x 1 root root   30800 janv.  8 19:31 wdctl
+-rwxr-xr-x 1 root root     946 déc.  30  2017 which
+-rwxr-xr-x 1 root root   26632 janv. 12  2018 whiptail
+lrwxrwxrwx 1 root root       8 mars   2 16:12 ypdomainname -> hostname
+-rwxr-xr-x 1 root root    1937 avril 28  2017 zcat
+-rwxr-xr-x 1 root root    1777 avril 28  2017 zcmp
+-rwxr-xr-x 1 root root    5764 avril 28  2017 zdiff
+-rwxr-xr-x 1 root root     140 avril 28  2017 zegrep
+-rwxr-xr-x 1 root root     140 avril 28  2017 zfgrep
+-rwxr-xr-x 1 root root    2131 avril 28  2017 zforce
+-rwxr-xr-x 1 root root    5938 avril 28  2017 zgrep
+-rwxr-xr-x 1 root root    2037 avril 28  2017 zless
+-rwxr-xr-x 1 root root    1910 avril 28  2017 zmore
+-rwxr-xr-x 1 root root    5047 avril 28  2017 znew
+ana@ana-ThinkPad-T440p:~$ pwd
+/home/ana
+ana@ana-ThinkPad-T440p:~$ cd Images
+ana@ana-ThinkPad-T440p:~/Images$ pwd
+/home/ana/Images
+ana@ana-ThinkPad-T440p:~/Images$ cd ..
+ana@ana-ThinkPad-T440p:~$ pwd
+/home/ana
+ana@ana-ThinkPad-T440p:~$ cd /opt
+ana@ana-ThinkPad-T440p:/opt$ cd ../home/ana
+ana@ana-ThinkPad-T440p:~$ cd /usr/bin
+ana@ana-ThinkPad-T440p:/usr/bin$ ls
+'['
+ 411toppm
+ aa-enabled
+ aa-exec
+ aconnect
+ acpi_listen
+ add-apt-repository
+ addpart
+ addr2line
+ alsabat
+ alsaloop
+ alsamixer
+ alsatplg
+ alsaucm
+ amidi
+ amixer
+ amuFormat.sh
+ animate
+ animate-im6
+ animate-im6.q16
+ anytopnm
+ apg
+ apgbfm
+ aplay
+ aplaymidi
+ apport-bug
+ apport-cli
+ apport-collect
+ apport-unpack
+ appres
+ appstreamcli
+ apropos
+ apt
+ apt-add-repository
+ apt-cache
+ apt-cdrom
+ apt-config
+ aptdcon
+ apt-extracttemplates
+ apt-ftparchive
+ apt-get
+ apt-key
+ apt-mark
+ apt-sortpkgs
+ apturl
+ apturl-gtk
+ ar
+ arch
+ arecord
+ arecordmidi
+ arm2hpdl
+ arping
+ as
+ asciitopgm
+ aseqdump
+ aseqnet
+ aspell
+ aspell-import
+ atktopbm
+ atobm
+ avahi-browse
+ avahi-browse-domains
+ avahi-publish
+ avahi-publish-address
+ avahi-publish-service
+ avahi-resolve
+ avahi-resolve-address
+ avahi-resolve-host-name
+ avahi-set-host-name
+ awk
+ b2sum
+ baobab
+ base32
+ base64
+ basename
+ bashbug
+ bc
+ bccmd
+ bdftopcf
+ bdftruncate
+ bioradtopgm
+ bitmap
+ bluemoon
+ bluetoothctl
+ bluetooth-sendto
+ bmptopnm
+ bmptoppm
+ bmtoa
+ boltctl
+ bootctl
+ brltty-ctb
+ brltty-trtxt
+ brltty-ttb
+ broadwayd
+ browse
+ brushtopbm
+ bsd-from
+ bsd-write
+ btattach
+ btmgmt
+ btmon
+ busctl
+ bwrap
+ cal
+ calendar
+ calibrate_ppa
+ canberra-gtk-play
+ cancel
+ captoinfo
+ catchsegv
+ catman
+ cautious-launcher
+ cd-create-profile
+ cd-fix-profile
+ cd-iccdump
+ cd-it8
+ c++filt
+ chacl
+ chage
+ chardet3
+ chardetect3
+ chattr
+ chcon
+ check-language-support
+ cheese
+ chfn
+ chromium-browser
+ chrt
+ chsh
+ ciptool
+ ckbcomp
+ cksum
+ clear
+ clear_console
+ cmp
+ cmuwmtopbm
+ codepage
+ col
+ colcrt
+ colormgr
+ colrm
+ column
+ combinediff
+ comm
+ compare
+ compare-im6
+ compare-im6.q16
+ compose
+ composite
+ composite-im6
+ composite-im6.q16
+ conjure
+ conjure-im6
+ conjure-im6.q16
+ convert
+ convert-im6
+ convert-im6.q16
+ corelist
+ cpan
+ cpan5.26-x86_64-linux-gnu
+ cpp
+ cpp-7
+ crc32
+ c_rehash
+ crontab
+ csplit
+ ctstat
+ cups-calibrate
+ cupstestdsc
+ cupstestppd
+ cut
+ cvt
+ dbus-cleanup-sockets
+ dbus-daemon
+ dbus-launch
+ dbus-monitor
+ dbus-run-session
+ dbus-send
+ dbus-update-activation-environment
+ dbus-uuidgen
+ dc
+ dconf
+ ddstdecode
+ deallocvt
+ debconf
+ debconf-apt-progress
+ debconf-communicate
+ debconf-copydb
+ debconf-escape
+ debconf-set-selections
+ debconf-show
+ deb-systemd-helper
+ deb-systemd-invoke
+ dehtmldiff
+ deja-dup
+ delpart
+ delv
+ desktop-file-edit
+ desktop-file-install
+ desktop-file-validate
+ devdump
+ dfu-tool
+ dh_bash-completion
+ dh_perl_openssl
+ diff
+ diff3
+ diffstat
+ dig
+ dircolors
+ dirmngr
+ dirmngr-client
+ dirname
+ dirsplit
+ display
+ display-im6
+ display-im6.q16
+ do-release-upgrade
+ dpkg
+ dpkg-deb
+ dpkg-divert
+ dpkg-maintscript-helper
+ dpkg-query
+ dpkg-split
+ dpkg-statoverride
+ dpkg-trigger
+ driverless
+ du
+ dumpkeys
+ dvipdf
+ dwp
+ edit
+ editdiff
+ editor
+ editres
+ eject
+ elfedit
+ enc2xs
+ encguess
+ enchant
+ enchant-lsmod
+ env
+ envsubst
+ eog
+ eps2eps
+ eqn
+ esc-m
+ eutp
+ evince
+ evince-previewer
+ evince-thumbnailer
+ ex
+ expand
+ expiry
+ expr
+ eyuvtoppm
+ factor
+ faillog
+ fallocate
+ fc-cache
+ fc-cat
+ fc-list
+ fc-match
+ fc-pattern
+ fc-query
+ fc-scan
+ fc-validate
+ fiascotopnm
+ file
+ file2brl
+ file-roller
+ filterdiff
+ find
+ firefox
+ fitstopnm
+ fixcvsdiff
+ fix-qdf
+ flipdiff
+ flock
+ fmt
+ fold
+ fonttosfnt
+ foo2ddst
+ foo2ddst-wrapper
+ foo2hbpl2
+ foo2hbpl2-wrapper
+ foo2hiperc
+ foo2hiperc-wrapper
+ foo2hp
+ foo2hp2600-wrapper
+ foo2lava
+ foo2lava-wrapper
+ foo2oak
+ foo2oak-wrapper
+ foo2qpdl
+ foo2qpdl-wrapper
+ foo2slx
+ foo2slx-wrapper
+ foo2xqx
+ foo2xqx-wrapper
+ foo2zjs
+ foo2zjs-icc2ps
+ foo2zjs-pstops
+ foo2zjs-wrapper
+ foomatic-rip
+ free
+ from
+ fstopgm
+ ftp
+ funzip
+ fwupdmgr
+ g3topbm
+ gamma4scanimage
+ gapplication
+ gatttool
+ gcore
+ gcr-viewer
+ gdb
+ gdb-add-index
+ gdbserver
+ gdbtui
+ gdbus
+ gdialog
+ gdk-pixbuf-thumbnailer
+ gdmflexiserver
+ gdm-screenshot
+ gedit
+ gemtopbm
+ gemtopnm
+ genisoimage
+ geqn
+ GET
+ getconf
+ geteltorito
+ getent
+ getfacl
+ getkeycodes
+ getopt
+ gettext
+ gettextize
+ gettext.sh
+ ghostscript
+ giftopnm
+ ginstall-info
+ gio
+ gio-querymodules
+ gipddecode
+ git
+ git-receive-pack
+ git-shell
+ git-upload-archive
+ git-upload-pack
+ gjs
+ gjs-console
+ gkbd-keyboard-display
+ glib-compile-schemas
+ gnome-calendar
+ gnome-control-center
+ gnome-disk-image-mounter
+ gnome-disks
+ gnome-font-viewer
+ gnome-help
+ gnome-keyring
+ gnome-keyring-3
+ gnome-keyring-daemon
+ gnome-language-selector
+ gnome-power-statistics
+ gnome-screenshot
+ gnome-session
+ gnome-session-custom-session
+ gnome-session-inhibit
+ gnome-session-properties
+ gnome-session-quit
+ gnome-shell
+ gnome-shell-extension-prefs
+ gnome-shell-extension-tool
+ gnome-shell-perf-tool
+ gnome-software
+ gnome-software-editor
+ gnome-terminal
+ gnome-terminal.real
+ gnome-terminal.wrapper
+ gnome-text-editor
+ gnome-thumbnail-font
+ gnome-todo
+ gnome-www-browser
+ gold
+ gouldtoppm
+ gpasswd
+ gpg
+ gpg-agent
+ gpgconf
+ gpg-connect-agent
+ gpgparsemail
+ gpgsm
+ gpgsplit
+ gpgv
+ gpg-wks-server
+ gpg-zip
+ gpic
+ gprof
+ gpu-manager
+ grepdiff
+ gresource
+ groff
+ grog
+ grops
+ grotty
+ groups
+ grub-editenv
+ grub-file
+ grub-fstest
+ grub-glue-efi
+ grub-kbdcomp
+ grub-menulst2cfg
+ grub-mkfont
+ grub-mkimage
+ grub-mklayout
+ grub-mknetdir
+ grub-mkpasswd-pbkdf2
+ grub-mkrelpath
+ grub-mkrescue
+ grub-mkstandalone
+ grub-mount
+ grub-ntldr-img
+ grub-render-label
+ grub-script-check
+ grub-syslinux2cfg
+ gs
+ gsbj
+ gsdj
+ gsdj500
+ gsettings
+ gslj
+ gslp
+ gsnd
+ gst-device-monitor-1.0
+ gst-discoverer-1.0
+ gst-inspect-1.0
+ gst-launch-1.0
+ gst-play-1.0
+ gstreamer-codec-install
+ gst-typefind-1.0
+ gtbl
+ gtf
+ gtk-builder-tool
+ gtk-launch
+ gtk-query-settings
+ gtk-update-icon-cache
+ gvfs-cat
+ gvfs-copy
+ gvfs-info
+ gvfs-less
+ gvfs-ls
+ gvfs-mime
+ gvfs-mkdir
+ gvfs-monitor-dir
+ gvfs-monitor-file
+ gvfs-mount
+ gvfs-move
+ gvfs-open
+ gvfs-rename
+ gvfs-rm
+ gvfs-save
+ gvfs-set-attribute
+ gvfs-trash
+ gvfs-tree
+ h2ph
+ h2xs
+ hbpldecode
+ hciattach
+ hcitool
+ hd
+ head
+ HEAD
+ helpztags
+ hex2hcd
+ hexdump
+ hipercdecode
+ hipstopgm
+ host
+ hostid
+ hostnamectl
+ hp-align
+ hp-check
+ hp-clean
+ hp-colorcal
+ hp-config_usb_printer
+ hp-doctor
+ hp-firmware
+ hp-info
+ hp-levels
+ hp-logcapture
+ hp-makeuri
+ hp-pkservice
+ hp-plugin
+ hp-plugin-ubuntu
+ hp-probe
+ hp-query
+ hp-scan
+ hp-setup
+ hp-testpage
+ hp-timedate
+ hwe-support-status
+ i386
+ ibus
+ ibus-daemon
+ ibus-setup
+ ibus-table-createdb
+ iceauth
+ ico
+ icontopbm
+ iconv
+ id
+ identify
+ identify-im6
+ identify-im6.q16
+ iecset
+ ijs_pxljr
+ ilbmtoppm
+ imagetops
+ im-config
+ imgtoppm
+ im-launch
+ import
+ import-im6
+ import-im6.q16
+ info
+ infobrowser
+ infocmp
+ infotocap
+ inputattach
+ install
+ install-info
+ install-printerdriver
+ instmodsh
+ intel-virtual-output
+ interdiff
+ ionice
+ ipcmk
+ ipcrm
+ ipcs
+ ipod-read-sysinfo-extended
+ ipod-time-sync
+ ippfind
+ ipptool
+ iptables-xml
+ ischroot
+ isdv4-serial-debugger
+ isdv4-serial-inputattach
+ isodump
+ isoinfo
+ isovfy
+ ispell-wrapper
+ join
+ jpegtopnm
+ jpgicc
+ json_pp
+ kbdinfo
+ kbxutil
+ kernel-install
+ kerneloops-submit
+ keyring
+ killall
+ kmodsign
+ l2ping
+ l2test
+ laptop-detect
+ last
+ lastb
+ lastlog
+ lavadecode
+ lcf
+ ld
+ ld.bfd
+ ldd
+ ld.gold
+ leaftoppm
+ less
+ lessecho
+ lessfile
+ lesskey
+ lesspipe
+ lexgrog
+ libnetcfg
+ libreoffice
+ libwacom-list-local-devices
+ link
+ linkicc
+ lintian
+ lintian-info
+ lintian-lab-tool
+ linux32
+ linux64
+ linux-boot-prober
+ linux-check-removal
+ linux-update-symlinks
+ linux-version
+ lispmtopgm
+ listres
+ lnstat
+ loadkeys
+ loadunimap
+ localc
+ locale
+ locale-check
+ localectl
+ localedef
+ locate
+ lodraw
+ loffice
+ lofromtemplate
+ logger
+ logname
+ loimpress
+ lomath
+ look
+ lorder
+ loweb
+ lowriter
+ lp
+ lpoptions
+ lpq
+ lpr
+ lprm
+ lp_solve
+ lpstat
+ lsattr
+ lsb_release
+ lscpu
+ lsdiff
+ lshw
+ lsinitramfs
+ lsipc
+ lslocks
+ lslogins
+ lsmem
+ lsns
+ lsof
+ lspci
+ lspgpot
+ lsusb
+ ltrace
+ luit
+ lwp-download
+ lwp-dump
+ lwp-mirror
+ lwp-request
+ lz
+ lzcat
+ lzcmp
+ lzdiff
+ lzegrep
+ lzfgrep
+ lzgrep
+ lzless
+ lzma
+ lzmainfo
+ lzmore
+ m2300w
+ m2300w-wrapper
+ m2400w
+ macptopbm
+ man
+ mandb
+ manpath
+ mapscrn
+ mattrib
+ mawk
+ mbadblocks
+ mcat
+ mcd
+ mcheck
+ mclasserase
+ mcomp
+ mcookie
+ mcopy
+ md5sum
+ md5sum.textutils
+ mdatopbm
+ mdel
+ mdeltree
+ mdig
+ mdir
+ mdu
+ mesg
+ mformat
+ mgrtopbm
+ migrate-pubring-from-classic-gpg
+ mimeopen
+ mimetype
+ min12xxw
+ minfo
+ mkfifo
+ mkfontdir
+ mkfontscale
+ mkisofs
+ mkmanifest
+ mk_modmap
+ mksquashfs
+ mkzftree
+ mlabel
+ mlocate
+ mmcli
+ mmd
+ mmount
+ mmove
+ mogrify
+ mogrify-im6
+ mogrify-im6.q16
+ mokutil
+ monitor-sensor
+ montage
+ montage-im6
+ montage-im6.q16
+ mousetweaks
+ mpartition
+ mrd
+ mren
+ mscompress
+ msexpand
+ msgattrib
+ msgcat
+ msgcmp
+ msgcomm
+ msgconv
+ msgen
+ msgexec
+ msgfilter
+ msgfmt
+ msggrep
+ msginit
+ msgmerge
+ msgunfmt
+ msguniq
+ mshortname
+ mshowfat
+ mtools
+ mtoolstest
+ mtr
+ mtr-packet
+ mtvtoppm
+ mtype
+ mutter
+ mxtar
+ mzip
+ namei
+ nautilus
+ nautilus-autorun-software
+ nautilus-desktop
+ nautilus-sendto
+ nawk
+ ncal
+ neotoppm
+ neqn
+ netkit-ftp
+ networkd-dispatcher
+ newgrp
+ ngettext
+ nice
+ nl
+ nm
+ nm-applet
+ nmcli
+ nm-connection-editor
+ nm-online
+ nmtui
+ nmtui-connect
+ nmtui-edit
+ nmtui-hostname
+ nohup
+ notify-send
+ nproc
+ nroff
+ nsenter
+ nslookup
+ nstat
+ nsupdate
+ ntfsdecrypt
+ numfmt
+ nvidia-detector
+ oakdecode
+ obexctl
+ objcopy
+ objdump
+ oclock
+ od
+ on_ac_power
+ openssl
+ opldecode
+ orca
+ orca-dm-wrapper
+ os-prober
+ p11-kit
+ pacat
+ pacmd
+ pactl
+ padsp
+ pager
+ palmtopnm
+ pamcut
+ pamdeinterlace
+ pamdice
+ pamfile
+ pamoil
+ pamon
+ pamstack
+ pamstretch
+ pamstretch-gen
+ paperconf
+ paplay
+ parec
+ parecord
+ parsechangelog
+ partx
+ passwd
+ paste
+ pasuspender
+ patch
+ pathchk
+ pax11publish
+ pbmclean
+ pbmlife
+ pbmmake
+ pbmmask
+ pbmpage
+ pbmpscale
+ pbmreduce
+ pbmtext
+ pbmtextps
+ pbmto10x
+ pbmtoascii
+ pbmtoatk
+ pbmtobbnbg
+ pbmtocmuwm
+ pbmtoepsi
+ pbmtoepson
+ pbmtog3
+ pbmtogem
+ pbmtogo
+ pbmtoicon
+ pbmtolj
+ pbmtomacp
+ pbmtomda
+ pbmtomgr
+ pbmtonokia
+ pbmtopgm
+ pbmtopi3
+ pbmtoplot
+ pbmtoppa
+ pbmtopsg3
+ pbmtoptx
+ pbmtowbmp
+ pbmtox10bm
+ pbmtoxbm
+ pbmtoybm
+ pbmtozinc
+ pbmupc
+ pcimodules
+ pcxtoppm
+ pdb3
+ pdb3.6
+ pdf2dsc
+ pdf2ps
+ pdfdetach
+ pdffonts
+ pdfimages
+ pdfinfo
+ pdfseparate
+ pdfsig
+ pdftocairo
+ pdftohtml
+ pdftoppm
+ pdftops
+ pdftotext
+ pdfunite
+ peekfd
+ perl
+ perl5.26.1
+ perl5.26-x86_64-linux-gnu
+ perlbug
+ perldoc
+ perli11ndoc
+ perlivp
+ perlthanks
+ pf2afm
+ pfbtopfa
+ pftp
+ pgmbentley
+ pgmcrater
+ pgmedge
+ pgmenhance
+ pgmhist
+ pgmkernel
+ pgmnoise
+ pgmnorm
+ pgmoil
+ pgmramp
+ pgmslice
+ pgmtexture
+ pgmtofs
+ pgmtolispm
+ pgmtopbm
+ pgmtoppm
+ pgrep
+ pi1toppm
+ pi3topbm
+ pic
+ pico
+ piconv
+ pinentry
+ pinentry-curses
+ pinentry-gnome3
+ pinentry-x11
+ pinky
+ pjtoppm
+ pkaction
+ pkcheck
+ pkcon
+ pkexec
+ pkill
+ pkmon
+ pkttyagent
+ pl2pm
+ pldd
+ plog
+ pmap
+ pngtopnm
+ pnm2ppa
+ pnmalias
+ pnmarith
+ pnmcat
+ pnmcolormap
+ pnmcomp
+ pnmconvol
+ pnmcrop
+ pnmcut
+ pnmdepth
+ pnmenlarge
+ pnmfile
+ pnmflip
+ pnmgamma
+ pnmhisteq
+ pnmhistmap
+ pnmindex
+ pnminterp
+ pnminterp-gen
+ pnminvert
+ pnmmargin
+ pnmmontage
+ pnmnlfilt
+ pnmnoraw
+ pnmnorm
+ pnmpad
+ pnmpaste
+ pnmpsnr
+ pnmquant
+ pnmremap
+ pnmrotate
+ pnmscale
+ pnmscalefixed
+ pnmshear
+ pnmsmooth
+ pnmsplit
+ pnmtile
+ pnmtoddif
+ pnmtofiasco
+ pnmtofits
+ pnmtojpeg
+ pnmtopalm
+ pnmtoplainpnm
+ pnmtopng
+ pnmtops
+ pnmtorast
+ pnmtorle
+ pnmtosgi
+ pnmtosir
+ pnmtotiff
+ pnmtotiffcmyk
+ pnmtoxwd
+ pod2html
+ pod2man
+ pod2text
+ pod2usage
+ podchecker
+ podselect
+ poff
+ pon
+ POST
+ ppdc
+ ppdhtml
+ ppdi
+ ppdmerge
+ ppdpo
+ pphs
+ ppm3d
+ ppmbrighten
+ ppmchange
+ ppmcie
+ ppmcolormask
+ ppmcolors
+ ppmdim
+ ppmdist
+ ppmdither
+ ppmfade
+ ppmflash
+ ppmforge
+ ppmhist
+ ppmlabel
+ ppmmake
+ ppmmix
+ ppmnorm
+ ppmntsc
+ ppmpat
+ ppmquant
+ ppmquantall
+ ppmqvga
+ ppmrainbow
+ ppmrelief
+ ppmshadow
+ ppmshift
+ ppmspread
+ ppmtoacad
+ ppmtobmp
+ ppmtoeyuv
+ ppmtogif
+ ppmtoicr
+ ppmtoilbm
+ ppmtojpeg
+ ppmtoleaf
+ ppmtolj
+ ppmtomap
+ ppmtomitsu
+ ppmtompeg
+ ppmtoneo
+ ppmtopcx
+ ppmtopgm
+ ppmtopi1
+ ppmtopict
+ ppmtopj
+ ppmtopuzz
+ ppmtorgb3
+ ppmtosixel
+ ppmtotga
+ ppmtouil
+ ppmtowinicon
+ ppmtoxpm
+ ppmtoyuv
+ ppmtoyuvsplit
+ ppmtv
+ pr
+ precat
+ preconv
+ preunzip
+ prezip
+ prezip-bin
+ print
+ printafm
+ printenv
+ printerbanner
+ printer-profile
+ printf
+ prlimit
+ prove
+ prtstat
+ ps2ascii
+ ps2epsi
+ ps2pdf
+ ps2pdf12
+ ps2pdf13
+ ps2pdf14
+ ps2pdfwr
+ ps2ps
+ ps2ps2
+ ps2txt
+ psfaddtable
+ psfgettable
+ psfstriptable
+ psfxtable
+ psicc
+ psidtopgm
+ pslog
+ pstopnm
+ pstree
+ pstree.x11
+ ptar
+ ptardiff
+ ptargrep
+ ptx
+ pulseaudio
+ pwdx
+ py3clean
+ py3compile
+ py3versions
+ pydoc3
+ pydoc3.6
+ pygettext3
+ pygettext3.6
+ python3
+ python3.6
+ python3.6m
+ python3m
+ qpdf
+ qpdldecode
+ qrttoppm
+ quirks-handler
+ ranlib
+ rasttopnm
+ rawtopgm
+ rawtoppm
+ rcp
+ rctest
+ rdma
+ readelf
+ realpath
+ recode-sr-latin
+ recountdiff
+ rediff
+ remmina
+ rename.ul
+ rendercheck
+ renice
+ reset
+ resizecons
+ resizepart
+ rev
+ rfcomm
+ rgb3toppm
+ rgrep
+ rhythmbox
+ rhythmbox-client
+ rletopnm
+ rlogin
+ routef
+ routel
+ rsh
+ rstart
+ rstartd
+ rsync
+ rtstat
+ runcon
+ run-mailcap
+ run-with-aspell
+ rview
+ rvim
+ sane-find-scanner
+ savelog
+ sbattach
+ sbigtopgm
+ sbkeysync
+ sbsiglist
+ sbsign
+ sbvarsign
+ sbverify
+ scanimage
+ scp
+ scp-dbus-service
+ screendump
+ script
+ scriptreplay
+ sdiff
+ sdptool
+ seahorse
+ see
+ select-default-iwrap
+ select-editor
+ sensible-browser
+ sensible-editor
+ sensible-pager
+ seq
+ session-migration
+ sessreg
+ setarch
+ setfacl
+ setkeycodes
+ setleds
+ setlogcons
+ setmetamode
+ setpci
+ setsid
+ setterm
+ setxkbmap
+ sftp
+ sg
+ sgitopnm
+ sha1sum
+ sha224sum
+ sha256sum
+ sha384sum
+ sha512sum
+ shasum
+ shotwell
+ showconsolefont
+ showkey
+ showrgb
+ shred
+ shuf
+ simple-scan
+ sirtopnm
+ size
+ skill
+ slabtop
+ sldtoppm
+ slogin
+ slxdecode
+ smproxy
+ snap
+ snapctl
+ snapfuse
+ snice
+ soelim
+ soffice
+ software-properties-gtk
+ sort
+ spctoppm
+ spd-conf
+ spd-say
+ speaker-test
+ speech-dispatcher
+ spellintian
+ spice-vdagent
+ splain
+ split
+ splitdiff
+ splitfont
+ sputoppm
+ ssh
+ ssh-add
+ ssh-agent
+ ssh-argv0
+ ssh-copy-id
+ ssh-keygen
+ ssh-keyscan
+ st4topgm
+ start-pulseaudio-x11
+ startx
+ stat
+ stdbuf
+ strace
+ strace-log-merge
+ stream
+ stream-im6
+ stream-im6.q16
+ strings
+ strip
+ sudo
+ sudoedit
+ sudoreplay
+ sum
+ symcryptrun
+ syslinux
+ syslinux-legacy
+ system-config-printer
+ system-config-printer-applet
+ systemd-analyze
+ systemd-cat
+ systemd-cgls
+ systemd-cgtop
+ systemd-delta
+ systemd-detect-virt
+ systemd-mount
+ systemd-path
+ systemd-resolve
+ systemd-run
+ systemd-socket-activate
+ systemd-stdio-bridge
+ systemd-umount
+ t1ascii
+ t1asm
+ t1binary
+ t1disasm
+ t1mac
+ t1unmac
+ tabs
+ tac
+ tail
+ taskset
+ tbl
+ tee
+ telnet
+ telnet.netkit
+ test
+ tgatoppm
+ tgz
+ thinkjettopbm
+ thunderbird
+ tic
+ tifftopnm
+ tificc
+ time
+ timedatectl
+ timeout
+ tload
+ toe
+ top
+ totem
+ totem-video-thumbnailer
+ touch
+ tput
+ tr
+ tracepath
+ traceroute6
+ traceroute6.iputils
+ transicc
+ transmission-gtk
+ transset
+ troff
+ truncate
+ trust
+ tset
+ tsort
+ ttfread
+ tty
+ tzselect
+ ua
+ ubuntu-advantage
+ ubuntu-bug
+ ubuntu-core-launcher
+ ubuntu-drivers
+ ubuntu-report
+ ubuntu-software
+ ubuntu-support-status
+ ucf
+ ucfq
+ ucfr
+ ucs2any
+ udisksctl
+ ul
+ umax_pp
+ unattended-upgrade
+ unattended-upgrades
+ unexpand
+ unicode_stop
+ uniq
+ unity-scope-loader
+ unlink
+ unlzma
+ unmkinitramfs
+ unopkg
+ unshare
+ unsquashfs
+ unwrapdiff
+ unxz
+ unzip
+ unzipsfx
+ update-alternatives
+ updatedb
+ updatedb.mlocate
+ update-desktop-database
+ update-manager
+ update-mime-database
+ update-notifier
+ update-perl-sax-parsers
+ upower
+ uptime
+ usb-creator-gtk
+ usb-devices
+ usbhid-dump
+ usb_printerid
+ users
+ utmpdump
+ uuidgen
+ uuidparse
+ uz
+ vi
+ view
+ viewres
+ vim
+ vim.basic
+ vimdiff
+ vim.tiny
+ vimtutor
+ vmstat
+ vmwarectrl
+ volname
+ vstp
+ w
+ wall
+ watch
+ watchgnupg
+ wbmptopbm
+ wc
+ wget
+ whatis
+ whereis
+ which
+ who
+ whoami
+ whoopsie
+ whoopsie-preferences
+ winicontoppm
+ word-list-compress
+ wpa_passphrase
+ w.procps
+ write
+ X
+ X11
+ x11perf
+ x11perfcomp
+ x86_64
+ x86_64-linux-gnu-addr2line
+ x86_64-linux-gnu-ar
+ x86_64-linux-gnu-as
+ x86_64-linux-gnu-c++filt
+ x86_64-linux-gnu-cpp
+ x86_64-linux-gnu-cpp-7
+ x86_64-linux-gnu-dwp
+ x86_64-linux-gnu-elfedit
+ x86_64-linux-gnu-gold
+ x86_64-linux-gnu-gprof
+ x86_64-linux-gnu-ld
+ x86_64-linux-gnu-ld.bfd
+ x86_64-linux-gnu-ld.gold
+ x86_64-linux-gnu-nm
+ x86_64-linux-gnu-objcopy
+ x86_64-linux-gnu-objdump
+ x86_64-linux-gnu-ranlib
+ x86_64-linux-gnu-readelf
+ x86_64-linux-gnu-size
+ x86_64-linux-gnu-strings
+ x86_64-linux-gnu-strip
+ xargs
+ xauth
+ xbiff
+ xbmtopbm
+ xbrlapi
+ xcalc
+ xclipboard
+ xclock
+ xcmsdb
+ xconsole
+ xcursorgen
+ xcutsel
+ xdg-desktop-icon
+ xdg-desktop-menu
+ xdg-email
+ xdg-icon-resource
+ xdg-mime
+ xdg-open
+ xdg-screensaver
+ xdg-settings
+ xdg-user-dir
+ xdg-user-dirs-gtk-update
+ xdg-user-dirs-update
+ xditview
+ xdpyinfo
+ xdriinfo
+ xedit
+ Xephyr
+ xev
+ xeyes
+ xfd
+ xfontsel
+ xgamma
+ xgc
+ xgettext
+ xhost
+ ximtoppm
+ xinit
+ xinput
+ xkbbell
+ xkbcomp
+ xkbevd
+ xkbprint
+ xkbvleds
+ xkbwatch
+ xkeystone
+ xkill
+ xload
+ xlogo
+ xlsatoms
+ xlsclients
+ xlsfonts
+ xmag
+ xman
+ xmessage
+ xmodmap
+ xmore
+ Xorg
+ xpmtoppm
+ xprop
+ xqxdecode
+ xrandr
+ xrdb
+ xrefresh
+ x-session-manager
+ xset
+ xsetmode
+ xsetpointer
+ xsetroot
+ xsetwacom
+ xsm
+ xstdcmap
+ xsubpp
+ x-terminal-emulator
+ xvidtune
+ xvinfo
+ xvminitoppm
+ Xwayland
+ xwd
+ xwdtopnm
+ x-window-manager
+ xwininfo
+ xwud
+ x-www-browser
+ xxd
+ xz
+ xzcat
+ xzcmp
+ xzdiff
+ xzegrep
+ xzfgrep
+ xzgrep
+ xzless
+ xzmore
+ ybmtopbm
+ yelp
+ yes
+ yuvsplittoppm
+ yuvtoppm
+ zdump
+ zeisstopnm
+ zeitgeist-daemon
+ zenity
+ zip
+ zipcloak
+ zipdetails
+ zipgrep
+ zipinfo
+ zipnote
+ zipsplit
+ zjsdecode
+ zlib-flate
+ana@ana-ThinkPad-T440p:/usr/bin$ cd
+ana@ana-ThinkPad-T440p:~$ pwd
+/home/ana
+ana@ana-ThinkPad-T440p:~$ cd~
+
+La commande « cd~ » n'a pas été trouvée, voulez-vous dire :
+
+  commande « cdo » du deb cdo
+  commande « cdw » du deb cdw
+  commande « cdb » du deb tinycdb
+  commande « cdp » du deb irpas
+  commande « cdi » du deb cdo
+  commande « cd5 » du deb cd5
+  commande « cde » du deb cde
+  commande « cdv » du deb codeville
+
+Essayez : sudo apt install <nom du deb>
+
+ana@ana-ThinkPad-T440p:~$ cd ~
+ana@ana-ThinkPad-T440p:~$ pwd
+/home/ana
+ana@ana-ThinkPad-T440p:~$ cd ~/Musique
+ana@ana-ThinkPad-T440p:~/Musique$ ls ~/Téléchargements
+ana@ana-ThinkPad-T440p:~/Musique$ pwd
+/home/ana/Musique
